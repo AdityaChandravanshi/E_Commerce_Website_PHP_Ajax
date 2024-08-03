@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1440px) {
+    .shop-products {
+        padding: 35px 15px 20px 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .shop .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+    
+    .product-categories li a {
+        padding: 8px 30px;
+    }
+    
+    .product-categories li a.active:after, .product-categories li a:hover:after {
+        left: 14px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    
+    .navs ul li a {
+        padding: 20px 15px;
+    } 
+    
+    .single-product img {
+    width: 100%;
+}
+    
+    .shop {
+    padding: 35px 15px;
+}
+    
+    .product-categories li a {
+        font-size: 15px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 767px) {  
+    h1 {
+        font-size: 35px;
+    }
+    
+    .navs ul li {
+        display: block;
+    }
+    
+    .navs ul li a {
+    padding: 10px 10px;
+}
+    
+    .navs ul li a:after {
+        display: none;
+    }
+    
+    .navs ul li a.active:before {
+        top: 2px;
+    }
+    
+    .paddnig80 {
+    padding: 40px 0px 80px 0px;
+}
+    
+    .wd70 {
+        width: 100%;
+    }
+    
+    .wd30 {
+       width: 100%;
+       margin-bottom: 25px;
+}
+    .upload-picture {
+       margin-top: 0px;     
+    }
+    
+    .upload-picture label {
+    position: relative;
+    top: 0px;
+    margin: 10px 0px 0px 0px;
+}
+    
+    .property-img {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    margin: 0px auto 25px auto;
+    display: block;
+}
+    
+    .product-list p {
+    padding: 0px 0px 0px 23px;
+}
+    
+    .navs {
+    padding: 15px 0px;
+}
+    
+    form.search-form {
+    margin: 0;
+}
+    
+    .search-form .width50, .search-form .form-field,  .billing-form .width50 {
+      margin: 0px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    /****************cart***/
+    
+    .single-product {
+    padding: 50px 25px;
+}
+    
+    table.order-table {
+        margin-top: 0px;
+    }
+    
+    
+    .product-categories.column {
+    height: auto!important;
+}
+    
+    .product-categories {
+    padding: 20px 0px;
+}
+    
+    .shop .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+    
+    .mobile-icon {
+        display: block;
+    }
+    
+    .navs ul {
+    position: absolute;
+    z-index: 99;
+    background: #000;
+    width: 100%;
+    left: 0;
+    top: 67px;
+    text-align: left;
+    padding: 20px 15px;
+        display: none;
+}
+    
+    
+    .navs ul li a.active:before {
+        display: none;
+    }
+    
+}
